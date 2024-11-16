@@ -1,0 +1,44 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.App-logo {
+  height: 6vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #4b515c;
+  padding: 30px;
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-body {
+  display: flex;
+  width: 70%;
+}
+
+.App-body > * {
+  flex: 1;
+}
+
+.search-box {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
